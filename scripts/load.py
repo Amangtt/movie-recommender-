@@ -62,7 +62,6 @@ def predictions_to_json(y_p, item, movie_dict, maxcount=10):
 
         predictions.append({
             "movie_id": movie_id,
-            "predicted_rating": predicted_rating,
             "actual_rating": actual_rating,
             "title": movie_info["title"],
             "genres": movie_info["genres"]
